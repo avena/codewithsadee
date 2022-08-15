@@ -1,7 +1,7 @@
 Material do Youtube: https://www.youtube.com/c/codewithsadee
 
-Projeto 1 - https://github.com/codewithsadee/homeverse
-Starter File - https://drive.google.com/file/d/1WG71WDALJgKWs_LojxMQ_dpwzVyvOP2T/view
+- Projeto 1 - https://github.com/codewithsadee/homeverse
+- Starter File - https://drive.google.com/file/d/1WG71WDALJgKWs_LojxMQ_dpwzVyvOP2T/view
 
 Installation instructions
 
