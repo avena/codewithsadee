@@ -29,8 +29,6 @@
 
   --ff-nunito-sans: "Nunito Sans", sans-serif;
   --ff-poppins: "Poppins", sans-serif; 
-  
-*/
 
   --fs-1: 1.875rem;
   --fs-2: 1.5rem;
@@ -43,6 +41,8 @@
   --fw-500: 500;
   --fw-600: 600;
   --fw-700: 700;
+
+  */
 
 
   --transition: 0.25s ease;
@@ -97,6 +97,19 @@ ion-icon { pointer-events: none; }
   border-left: 2px solid var(--white);
 }
 
+/***** header e alguns estido*/
+.container {
+  padding-inline: 15px;
+}
+
+
+.header {
+  z-index: 2;
+}
+
+.header-top {
+  padding-block: 15px;
+}
 
 @tailwind base;
 @tailwind components;

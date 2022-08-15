@@ -26,6 +26,20 @@ module.exports = {
     fontFamily: {
       'ff-nunito-sans': ["Nunito Sans", "sans-serif"],
       'ff-poppins': ["Poppins", "sans-serif"]
+    },
+    fontSize: {
+      'fs-1': '1.875rem',
+      'fs-2': '1.5rem',
+      'fs-3': '1.375rem',
+      'fs-4': '1.125rem',
+      'fs-5': '0.875rem',
+      'fs-6': '0.813rem',
+      'fs-7': '0.75rem'
+    },
+    fontWeight: {
+      fw500: 500,
+      fw600: 600,
+      fw700: 700
     }
 
   },
