@@ -102,13 +102,16 @@ ion-icon { pointer-events: none; }
   padding-inline: 15px;
 }
 
-
-.header {
-  z-index: 2;
+.header-top, .header-bottom {
+  padding-block: 15px;
 }
 
-.header-top {
-  padding-block: 15px;
+.header-bottom .logo img {
+  margin-inline: auto;
+}
+
+.overlay {
+  background: hsla(0, 0%, 0%, 0.7);
 }
 
 @tailwind base;

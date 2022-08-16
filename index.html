@@ -21,8 +21,8 @@
   <body class="bg-white ">
 
 
-  <header class="header relative" data-header>
-    <div class="overlay" data-overlay> </div>
+  <header class="header relative z-[2]" data-header>
+    <div class="overlay fixed inset-0 opacity-0 pointer-events-none duration-[0.25s] ease z-[4] active:opacity-[1] active:pointer-events-auto" data-overlay> </div>
 
     <div class="header-top bg-prussian-blue">
 
@@ -87,23 +87,23 @@
 
     </div>
 
-    <div class="header-bottom">
+    <div class="header-bottom bg-white">
       <div class="container">
 
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" alt="Homeverse logo">
         </a>
 
-        <nav class="navbar" data-navbar>
+        <nav class="navbar bg-white fixed top-0 left-[-310px] max-w-[300px] h-full shadow-[0_3px_10px_hsla(0, 0%, 0%, 0.3)] z-[5] py-[60px] px-5 active:visible active:translate-x-[310px] active:duration-[0.15s] active:ease-out" data-navbar>
 
-          <div class="navbar-top">
+          <div class="navbar-top flex justify-between items-center pb-10 border border-cultured-1 border-solid mb-6">
 
             <a href="#" class="logo">
-              <img src="./assets/images/logo.png" alt="Homeverse logo">
+              <img src="./assets/images/logo.png" alt="Homeverse logo" class="w-[200px]">
             </a>
 
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-              <ion-icon name="close-outline"></ion-icon>
+              <ion-icon name="close-outline" class="text-[20px]"></ion-icon>
             </button>
 
           </div>
@@ -112,27 +112,27 @@
             <ul class="navbar-list">
 
               <li>
-                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                <a href="#home" class="navbar-link text-cadet text-fs-5 font-fw600 uppercase hover:text-orange-soda focus:text-orange-soda" data-nav-link>Home</a>
               </li>
 
               <li>
-                <a href="#about" class="navbar-link" data-nav-link>About</a>
+                <a href="#about" class="navbar-link text-cadet text-fs-5 font-fw600 uppercase hover:text-orange-soda focus:text-orange-soda" data-nav-link>About</a>
               </li>
 
               <li>
-                <a href="#service" class="navbar-link" data-nav-link>Service</a>
+                <a href="#service" class="navbar-link text-cadet text-fs-5 font-fw600 uppercase hover:text-orange-soda focus:text-orange-soda" data-nav-link>Service</a>
               </li>
 
               <li>
-                <a href="#property" class="navbar-link" data-nav-link>Property</a>
+                <a href="#property" class="navbar-link text-cadet text-fs-5 font-fw600 uppercase hover:text-orange-soda focus:text-orange-soda" data-nav-link>Property</a>
               </li>
 
               <li>
-                <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                <a href="#blog" class="navbar-link text-cadet text-fs-5 font-fw600 uppercase hover:text-orange-soda focus:text-orange-soda" data-nav-link>Blog</a>
               </li>
 
               <li>
-                <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                <a href="#contact" class="navbar-link text-cadet text-fs-5 font-fw600 uppercase hover:text-orange-soda focus:text-orange-soda" data-nav-link>Contact</a>
               </li>
 
             </ul>
@@ -140,30 +140,30 @@
 
         </nav>
 
-        <div class="header-bottom-actions">
+        <div class="header-bottom-actions bg-white fixed bottom-0 left-0 w-full flex justify-evenly shadow-[-2px_0_30px_hsal(237,71,52%,0.2)] z-[3] ">
 
-          <button class="header-bottom-actions-btn" aria-label="Search">
-            <ion-icon name="search-outline"></ion-icon>
+          <button class="header-bottom-actions-btn hover:text-orange-soda focus:text-orange-soda" aria-label="Search">
+            <ion-icon class="text-[20px] mb-1 duration-[0.25s] ease-out" name="search-outline"></ion-icon>
 
-            <span>Search</span>
+            <span class="text-cadet font-ff-poppins text-fs-7 font-fw500">Search</span>
           </button>
 
-          <button class="header-bottom-actions-btn" aria-label="Profile">
-            <ion-icon name="person-outline"></ion-icon>
+          <button class="header-bottom-actions-btn hover:text-orange-soda focus:text-orange-soda" aria-label="Profile">
+            <ion-icon class="text-[20px] mb-1 duration-[0.25s] ease-out" name="person-outline"></ion-icon>
 
-            <span>Profile</span>
+            <span class="text-cadet font-ff-poppins text-fs-7 font-fw500">Profile</span>
           </button>
 
-          <button class="header-bottom-actions-btn" aria-label="Cart">
-            <ion-icon name="cart-outline"></ion-icon>
+          <button class="header-bottom-actions-btn hover:text-orange-soda focus:text-orange-soda" aria-label="Cart">
+            <ion-icon class="text-[20px] mb-1 duration-[0.25s] ease-out" name="cart-outline"></ion-icon>
 
-            <span>Cart</span>
+            <span class="text-cadet font-ff-poppins text-fs-7 font-fw500">Cart</span>
           </button>
 
-          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-            <ion-icon name="menu-outline"></ion-icon>
+          <button class="header-bottom-actions-btn hover:text-orange-soda focus:text-orange-soda" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon class="text-[20px] mb-1 duration-[0.25s] ease-out" name="menu-outline"></ion-icon>
 
-            <span>Menu</span>
+            <span class="text-cadet font-ff-poppins text-fs-7 font-fw500">Menu</span>
           </button>
 
         </div>
