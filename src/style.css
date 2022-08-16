@@ -121,6 +121,13 @@ ion-icon { pointer-events: none; }
   visibility: hidden;
   transition: 0.15s ease-in;
 }
+
+.header-bottom {
+  padding-block: 25px;
+}
+
+.header-bottom .logo img { margin-inline: auto; }
+
  /* .active */
 .navbar.active {
   visibility: visible;
@@ -147,6 +154,9 @@ ion-icon { pointer-events: none; }
   100% { transform: translateY(100%); }
 }
 
+.hero {
+  padding-block: var(--section-padding);
+}
 
 @tailwind base;
 @tailwind components;
