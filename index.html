@@ -22,7 +22,7 @@
 
 
   <header class="header relative z-[2]" data-header>
-    <div class="overlay fixed inset-0 opacity-0 pointer-events-none duration-[0.25s] ease z-[4] active:opacity-[1] active:pointer-events-auto" data-overlay> </div>
+    <div class="overlay fixed opacity-0 pointer-events-none duration-[0.25s] ease z-[4]" data-overlay> </div>
 
     <div class="header-top bg-prussian-blue">
 
@@ -87,14 +87,14 @@
 
     </div>
 
-    <div class="header-bottom bg-white">
+    <div class="header-bottom absolute bg-white">
       <div class="container">
 
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" alt="Homeverse logo">
         </a>
 
-        <nav class="navbar bg-white fixed top-0 left-[-310px] max-w-[300px] h-full shadow-[0_3px_10px_hsla(0, 0%, 0%, 0.3)] z-[5] py-[60px] px-5 active:visible active:translate-x-[310px] active:duration-[0.15s] active:ease-out" data-navbar>
+        <nav class="navbar bg-white fixed top-0 -left-[310px] max-w-[300px] w-full h-full z-[5] py-[60px] px-5" data-navbar>
 
           <div class="navbar-top flex justify-between items-center pb-10 border border-cultured-1 border-solid mb-6">
 
@@ -103,7 +103,7 @@
             </a>
 
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
-              <ion-icon name="close-outline" class="text-[20px]"></ion-icon>
+              <ion-icon name="close-outline" class="text-[20px] p-[5px]"></ion-icon>
             </button>
 
           </div>
@@ -140,7 +140,7 @@
 
         </nav>
 
-        <div class="header-bottom-actions bg-white fixed bottom-0 left-0 w-full flex justify-evenly shadow-[-2px_0_30px_hsal(237,71,52%,0.2)] z-[3] ">
+        <div class="header-bottom-actions bg-white fixed bottom-0 left-0 w-full flex justify-evenly z-[3] ">
 
           <button class="header-bottom-actions-btn hover:text-orange-soda focus:text-orange-soda" aria-label="Search">
             <ion-icon class="text-[20px] mb-1 duration-[0.25s] ease-out" name="search-outline"></ion-icon>

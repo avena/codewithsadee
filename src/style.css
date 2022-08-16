@@ -112,7 +112,41 @@ ion-icon { pointer-events: none; }
 
 .overlay {
   background: hsla(0, 0%, 0%, 0.7);
+  inset: 0;
+  transition: var(--transition);
 }
+
+.navbar {
+  box-shadow: 0 3px 10px hsla(0, 0%, 0%, 0.3);
+  visibility: hidden;
+  transition: 0.15s ease-in;
+}
+ /* .active */
+.navbar.active {
+  visibility: visible;
+  transform: translateX(310px);
+  transition: 0.25s ease-out;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.header-bottom-actions {
+  padding-block: 15px 10px;
+  box-shadow: -2px 0 30px hsla(237,71%,52%,0.2);
+}
+
+.navbar-link {
+  padding-block: 15px;
+}
+
+@keyframes slideDown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100%); }
+}
+
 
 @tailwind base;
 @tailwind components;
